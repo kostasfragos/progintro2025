@@ -9,7 +9,7 @@ int main() {
 
     if (distSquared < 1.0) cout << "inside\n";
     else if (distSquared == 1.0) cout << "border\n";
-    else cout << "outside\n";
+    else cout << "outside\n"; 
 
     return 0;
 }
