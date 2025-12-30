@@ -41,5 +41,5 @@ int main() {
     }
 
     while (!s.empty())
-        printf("%c\n", s.pop());
+        printf("%c\n", s.pop()); // %d
 }
