@@ -10,7 +10,7 @@ public:
     
 private:
     static const int size = 100;
-    #define size (int)(100)
+    // or: #define size (int)(100)
     int data[size];
     int top;
 };
