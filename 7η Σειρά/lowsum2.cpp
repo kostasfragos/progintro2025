@@ -1,3 +1,5 @@
+// This is the optimized version of the program.
+ 
 #include <iostream>
 using namespace std;
 

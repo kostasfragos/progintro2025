@@ -1,3 +1,5 @@
+// This is the "brute force" solution of the problem.
+
 #include <iostream>
 using namespace std;
 
