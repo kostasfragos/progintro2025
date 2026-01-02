@@ -7,6 +7,7 @@ public:
     bool empty();
     void enqueue(int x);
     int dequeue();
+    
 private:
     struct node {
         int info;
