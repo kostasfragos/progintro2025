@@ -1,4 +1,4 @@
-// This program has a time complexity of O(N).
+// This program has a time complexity of O(2N).
 
 #include <iostream>
 using namespace std;
@@ -14,16 +14,16 @@ int main() {
         scanf("%d", &x[i]);
         
     long long count = 0;
+    int sum = 0, j = 0;
     for (int i = 0; i < N; ++i) {
-        int sum = 0;
-        for (int j = i; j < N; ++j) {
-            sum += x[j];
+        while (j < N && sum + x[j] <= K)
+            sum += x[j++]; // same with sum += x[j]; j++;
 
-        if (sum <= K) ++count;
-        }
+        count += j - i;
+        sum -= x[i];
     }
     
-    printf("%d\n", count);
+    printf("%lld\n", count);
     
     return 0;
 }
