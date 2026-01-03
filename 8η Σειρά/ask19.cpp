@@ -3,11 +3,11 @@ using namespace std;
 
 class queue {
 public:
-    queue();
-    bool empty();
-    void enqueue(int x);
-    int dequeue();
-    int peek();
+    queue();               // constructor: creates an empty queue
+    bool empty();          // checks whether the queue is empty or not
+    void enqueue(int x);   // inserts one element to the queue
+    int dequeue();         // removes an element from a non-empty queue
+    int peek();            // returns (without removing) the first element of a non-empty queue
 
 private:
     struct node {
