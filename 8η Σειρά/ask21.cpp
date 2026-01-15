@@ -122,6 +122,6 @@ int main() {
 
     // Print result
     cout << sum << endl;
-    
+
     return 0;
 }
