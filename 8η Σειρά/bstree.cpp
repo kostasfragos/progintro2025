@@ -1,5 +1,6 @@
 // Exact same as ask22.cpp but with
 // scanf, printf instead of cin, cout
+// Much faster version
 
 #include <iostream>
 using namespace std;
