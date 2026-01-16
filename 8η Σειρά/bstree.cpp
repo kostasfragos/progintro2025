@@ -139,7 +139,7 @@ int main() {
         BST.insert(inserts[i]);
     }
 
-    scanf("%d", M);
+    scanf("%d", &M);
     int searches[M];
 
     for (int i = 0; i < M; i++) {
