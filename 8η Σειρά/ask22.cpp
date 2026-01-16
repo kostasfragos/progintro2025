@@ -102,14 +102,14 @@ int bstree::min() {
     if (root == nullptr) return 0;
     node *t = root;
     while (t->left != nullptr) t = t->left;
-    return t->info;
-}
-
-int bstree::max() {
+    return t->info;                           // this works because this is a binary SEARCH
+}                                             // tree and thus every smaller number is stored
+                                              // to the left side of every node and respectively
+int bstree::max() {                           // every greater number to the right
     if (root == nullptr) return 0;
     node *t = root;
     while (t->right != nullptr) t = t->right;
-    return t->info;
+    return t->info;                             
 }
 
 void bstree::inorder() {

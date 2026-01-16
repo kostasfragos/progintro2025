@@ -3,7 +3,6 @@
 // Much faster version
 
 #include <iostream>
-using namespace std;
 
 class bstree {
 public:
@@ -102,14 +101,14 @@ int bstree::search(int x) {
     return search_aux(root, x, 1);
 }
 
-int bstree::min() {
-    if (root == nullptr) return 0;
-    node *t = root;
-    while (t->left != nullptr) t = t->left;
-    return t->info;
-}
-
-int bstree::max() {
+int bstree::min() {                           
+    if (root == nullptr) return 0;            
+    node *t = root;                           
+    while (t->left != nullptr) t = t->left;   
+    return t->info;                           // this works because this is a binary SEARCH
+}                                             // tree and thus every smaller number is stored
+                                              // to the left side of every node and respectively
+int bstree::max() {                           // every greater number to the right
     if (root == nullptr) return 0;
     node *t = root;
     while (t->right != nullptr) t = t->right;
@@ -132,7 +131,7 @@ int main() {
     bstree BST;
     int N, M;
 
-    cin >> N;
+    scanf("%d", &N);
     int inserts[N];
 
     for (int i = 0; i < N; i++) {
@@ -140,7 +139,7 @@ int main() {
         BST.insert(inserts[i]);
     }
 
-    cin >> M;
+    scanf("%d", M);
     int searches[M];
 
     for (int i = 0; i < M; i++) {
