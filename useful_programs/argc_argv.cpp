@@ -11,6 +11,6 @@ int main(int argc, char *argv[]) {
             if (c == '\n') lines++;
         }
         fclose(f);
-        printf("Found %d char(s), %d line(s) in file %s\n", chars, lines, argv[i]);
+        printf("Found %d char(s) and %d line(s) in file %s\n", chars, lines+1, argv[i]);
     }
 }

@@ -3,6 +3,7 @@
 char tocapital (char ch) {
     if (ch >= 'a' && ch <= 'z')
         return ch - 'a' + 'A';
+        // return ch - 32;
     else return ch;
 }
 

@@ -3,6 +3,7 @@
 char tolower (char ch) {
     if (ch >= 'A' && ch <= 'Z')
         return ch - 'A' + 'a';
+        // return ch + 32;
     else return ch;
 }
 
