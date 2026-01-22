@@ -1,4 +1,7 @@
+// Θέμα 1ο
+
 #include "pzhelp"
+#include <iostream>
 
 int a = 2, b = 17, c = 1;
 
@@ -9,3 +12,4 @@ PROC p(int a, int &c) {
 }
 
 PROGRAM { p(c, a); WRITELN(a, b, c); }
+

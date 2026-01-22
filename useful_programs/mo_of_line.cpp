@@ -8,5 +8,6 @@ int main() {
 
     printf("%d lines were read\n", lines);  
 
-    if (lines > 0) printf("%0.3lf characters per line\n", (double) chars / lines);
+    if (lines > 0)
+        printf("%0.3lf characters per line\n", (double) chars / lines);
 }
