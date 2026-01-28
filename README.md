@@ -7,6 +7,6 @@
 
 - In the [useful_programs](https://github.com/kostasfragos/progintro2025/tree/main/useful_programs) folder you can find some common algorithm implementations that might help you throughout the course.
 
-- In the [Παλιά Θέματα](https://github.com/kostasfragos/progintro2025/tree/main/%CE%A0%CE%B1%CE%BB%CE%B9%CE%AC%20%CE%98%CE%AD%CE%BC%CE%B1%CF%84%CE%B1) folder you can find the implementations of some programs in old exams (whose statements can be found in the same folder) in order to find the answer directly by downloading and running them and not having to "run them by hand". **Make sure you place the file "pzhelp" in the same folder your ".cpp" files are in, in order to run them properly** (e.g., in the folder "ΚΑΝ2025").
+- In the [Παλιά Θέματα](https://github.com/kostasfragos/progintro2025/tree/main/%CE%A0%CE%B1%CE%BB%CE%B9%CE%AC%20%CE%98%CE%AD%CE%BC%CE%B1%CF%84%CE%B1) folder you can find the implementations of some programs in old exams (whose statements can be found in the same folder) in order to find the answer directly by downloading and running them and not having to "run them by hand". **Make sure to place the file "pzhelp" in the same folder your ".cpp" files are in, in order to run them properly** (e.g., in the folder "ΚΑΝ2025").
 
 - Click [here](https://helios.ntua.gr/course/view.php?id=827) for more details on this course.
